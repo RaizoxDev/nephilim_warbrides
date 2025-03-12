@@ -3,28 +3,29 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-function NavBar1() {
+function Menu() {
   return (
     <Navbar expand="lg" className="navbar navbar-dark bg-dark">
         <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className='m-auto'>
-                <Nav.Link href="#home">Home</Nav.Link>
+                <Nav.Link href="home.js">Home</Nav.Link>
                 <NavDropdown title="Installer" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#">Windows(32Bits)</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Windows(64Bits)</NavDropdown.Item>
+                    <NavDropdown.Item href="https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l">Windows(32Bits)</NavDropdown.Item>
+                    <NavDropdown.Item href="https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l">Windows(64Bits)</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#">MacOS(32Bits)</NavDropdown.Item>
-                    <NavDropdown.Item href="#">MacOS(64Bits)</NavDropdown.Item>
+                    <NavDropdown.Item href="https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l">MacOS(32Bits)</NavDropdown.Item>
+                    <NavDropdown.Item href="https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l">MacOS(64Bits)</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l">Prérequis</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="#histoire">Histoire</Nav.Link>
-                <Nav.Link href="#news">News</Nav.Link>
-                <Nav.Link href="#forum">Forum</Nav.Link>
+                <Nav.Link href="news.js">News</Nav.Link>
+                <Nav.Link href="forum.js">Forum</Nav.Link>
                 <NavDropdown title="Support" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#">Discord</NavDropdown.Item>
+                    <NavDropdown.Item href="https://discord.gg/Zq99VtyT5x">Discord</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#">Autre Contacts</NavDropdown.Item>
+                    <NavDropdown.Item href="https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l">Autre Contacts</NavDropdown.Item>
                 </NavDropdown>
             </Nav>
             </Navbar.Collapse>
@@ -33,4 +34,4 @@ function NavBar1() {
   );
 }
 
-export default NavBar1;
+export default Menu;

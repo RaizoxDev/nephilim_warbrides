@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from "../../components/home/logo/logo.png";
+import logo from "../../components/home/logo.png";
 
 function Image(){
     return (
