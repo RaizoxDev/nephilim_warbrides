@@ -1,11 +1,36 @@
-import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-
-function Menu (){
-    return(
-        <p>Menu</p>
-    );
+function NavBar1() {
+  return (
+    <Navbar expand="lg" className="navbar navbar-dark bg-dark">
+        <Container>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className='m-auto'>
+                <Nav.Link href="#home">Home</Nav.Link>
+                <NavDropdown title="Installer" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="#">Windows(32Bits)</NavDropdown.Item>
+                    <NavDropdown.Item href="#">Windows(64Bits)</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#">MacOS(32Bits)</NavDropdown.Item>
+                    <NavDropdown.Item href="#">MacOS(64Bits)</NavDropdown.Item>
+                </NavDropdown>
+                <Nav.Link href="#histoire">Histoire</Nav.Link>
+                <Nav.Link href="#news">News</Nav.Link>
+                <Nav.Link href="#forum">Forum</Nav.Link>
+                <NavDropdown title="Support" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="#">Discord</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#">Autre Contacts</NavDropdown.Item>
+                </NavDropdown>
+            </Nav>
+            </Navbar.Collapse>
+        </Container>
+    </Navbar>
+  );
 }
 
-export default Menu;
+export default NavBar1;
