@@ -2,20 +2,26 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function News_Majeur(){
+    const history = useHistory();
+        <img src={item.img} onChange={() => history.push(item.targetURL)}/>
+
     const ImageSlider = [{
         url: "https://images.nightcafe.studio/jobs/a0pXHZ9dav0u9IKgkAJp/a0pXHZ9dav0u9IKgkAJp--0--m3ch2.jpg?tr=w-1600,c-at_max",
         title: "Première News",
         description: "Description de la première news.",
+        targetURL: "https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l"
     },
     {
         url: "https://images.nightcafe.studio/jobs/a0pXHZ9dav0u9IKgkAJp/a0pXHZ9dav0u9IKgkAJp--0--m3ch2.jpg?tr=w-1600,c-at_max",
         title: "Deuxième News",
         description: "Description de la deuxième news.",
+        targetURL: "https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l"
     },
     {
         url: "https://images.nightcafe.studio/jobs/a0pXHZ9dav0u9IKgkAJp/a0pXHZ9dav0u9IKgkAJp--0--m3ch2.jpg?tr=w-1600,c-at_max",
         title: "Troisième News",
         description: "Description de la troisième news.",
+        targetURL: "https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l"
     },
     ];
     return(
