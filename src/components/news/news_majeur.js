@@ -2,18 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from "react-bootstrap";
 
-function News_Majeur() {
-    {
-        ImageSlider.map((item, index) => (
-            <div
-                key={index}
-                onClick={() => window.open("https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l")}
-            >
-                <img src={item.img} alt="img" />
-            </div>
-        ))
-    }
-
+function News_Majeur(){
     const ImageSlider = [{
         url: "https://images.nightcafe.studio/jobs/a0pXHZ9dav0u9IKgkAJp/a0pXHZ9dav0u9IKgkAJp--0--m3ch2.jpg?tr=w-1600,c-at_max",
         title: "Première News",
@@ -30,11 +19,19 @@ function News_Majeur() {
         description: "Description de la troisième news.",
     },
     ];
+    ImageSlider.map((item, index) => (
+        <div
+            key={index}
+            onClick={() => window.open("https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l")}
+        >
+            <img src={item.img} alt="img" />
+        </div>
+    ));
     return (
         <div className="container" style={{ backgroundColor: "#9D9797" }}>
             <div className="row">
                 <h1 className="text-center" id="titre-1">News Majeur</h1>
-                <div className="col-10">
+                <div className="col-12 w-100">
                     <Carousel>
                         {ImageSlider.map((image, index) => (
                             <Carousel.Item key={index}>

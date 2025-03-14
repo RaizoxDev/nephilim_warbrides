@@ -8,6 +8,7 @@ function Slider() {
       url: "https://jolstatic.fr/www/captures/549/7/6157.jpg",
       title: "Premier Slide",
       description: "Description de la premier slide.",
+      
     },
     {
       url: "https://jolstatic.fr/www/captures/549/7/6157.jpg",
