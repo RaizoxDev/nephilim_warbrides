@@ -1,5 +1,6 @@
 import React from "react";
 import Main from "./pages/home/home";
+import Installer from "./pages/installer/installer";
 import News from "./pages/news/news";
 import Forum from "./pages/forum/forum";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,6 +14,7 @@ function App(){
         <Route path="/" element={<Main />} />
         <Route path="/news" element={<News />} />
         <Route path="/forum" element={<Forum />} />
+        <Route path="/installer" element={<Installer />} />
       </Routes>
     </Router>
   );

@@ -18,7 +18,7 @@ function Menu() {
                         <NavDropdown.Item href="https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l">MacOS(32Bits)</NavDropdown.Item>
                         <NavDropdown.Item href="https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l">MacOS(64Bits)</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l">Prérequis</NavDropdown.Item>
+                        <NavDropdown.Item href="/installer/prérequis">Prérequis</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="/news">News</Nav.Link>
                     <Nav.Link href="/forum">Forum</Nav.Link>
