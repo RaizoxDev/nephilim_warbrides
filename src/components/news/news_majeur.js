@@ -28,7 +28,7 @@ function News_Majeur(){
         </div>
     ));
     return (
-        <div className="container" style={{ backgroundColor: "#9D9797" }}>
+        <div className="container" id="sliderNews" style={{backgroundColor: "#9D9797"}}>
             <div className="row">
                 <h1 className="text-center" id="titre-1">News Majeur</h1>
                 <div className="col-12 w-100">

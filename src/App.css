@@ -19,10 +19,20 @@ body{
     padding: 10px;
     border-radius: 0px;
 }
-#case-5, #case-6 {
-    text-align: center;
+#sliderNews {
     border: 15px solid #9D9797;
+}
+#case-5 {
+    text-align: center;
+    border: 15px solid #FFFFFF;
     padding: 10px;
     border-radius: 0px;
     height: 700px;
+}
+#case-6 {
+    background-color: #3754E6;
+    text-align: center;
+    border-top: 15px solid #FFFFFF;
+    padding: 10px;
+    border-radius: 0px;
 }
