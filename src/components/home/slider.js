@@ -7,17 +7,17 @@ function Slider() {
     {
       url: "https://jolstatic.fr/www/captures/549/7/6157.jpg",
       title: "Premier Slide",
-      description: "Description du premier slide.",
+      description: "Description de la premier slide.",
     },
     {
       url: "https://jolstatic.fr/www/captures/549/7/6157.jpg",
       title: "Deuxième Slide",
-      description: "Description du deuxième slide.",
+      description: "Description de la deuxième slide.",
     },
     {
       url: "https://jolstatic.fr/www/captures/549/7/6157.jpg",
       title: "Troisième Slide",
-      description: "Description du troisième slide.",
+      description: "Description de la troisième slide.",
     },
   ];
 
