@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Autre_News(){
     return(
-
+        <div></div>
     );
 }
 

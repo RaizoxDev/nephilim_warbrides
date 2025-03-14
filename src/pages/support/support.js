@@ -1,14 +1,12 @@
 import React from "react";
-import Image from "../../compoments/support/image";
-import Slider from "../../compoments/support/slider";
+import Image from "../../components/image";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Main(){
+function Support(){
     return (
         <>
         <Image />
-        <Slider />
         </>
     );
 }
-export default Main;
+export default Support;

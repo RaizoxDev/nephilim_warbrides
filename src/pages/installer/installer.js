@@ -1,14 +1,12 @@
 import React from "react";
-import Image from "../../compoments/installer/image";
-import Slider from "../../compoments/installer/slider";
+import Image from "../../components/image";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Main(){
+function Installer(){
     return (
         <>
         <Image />
-        <Slider />
         </>
     );
 }
-export default Main;
+export default Installer;

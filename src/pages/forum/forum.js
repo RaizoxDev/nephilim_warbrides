@@ -1,14 +1,13 @@
 import React from "react";
-import Image from "../../compoments/forum/image";
-import Slider from "../../compoments/forum/slider";
+import Image from "../../components/image";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Main(){
+function Forum(){
     return (
         <>
         <Image />
-        <Slider />
         </>
     );
 }
-export default Main;
+export default Forum;
