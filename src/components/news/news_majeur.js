@@ -35,7 +35,7 @@ function News_Majeur(){
                     <Carousel>
                         {ImageSlider.map((image, index) => (
                             <Carousel.Item key={index}>
-                                <img className="img-fluid" src={image.url} alt={`Slide ${index + 1}`} />
+                                <img className="img-fluid d-block mx-auto" src={image.url} alt={`Slide ${index + 1}`} />
                                 <Carousel.Caption>
                                     <h5 className="py-6">{image.title}</h5>
                                     <p>{image.description}</p>
