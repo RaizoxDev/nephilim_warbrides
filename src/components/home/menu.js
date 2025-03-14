@@ -10,7 +10,7 @@ function Menu() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className='m-auto'>
-                <Nav.Link href="home.js">Home</Nav.Link>
+                <Nav.Link href="home.js">Accueil</Nav.Link>
                 <NavDropdown title="Installer" id="basic-nav-dropdown">
                     <NavDropdown.Item href="https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l">Windows(32Bits)</NavDropdown.Item>
                     <NavDropdown.Item href="https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l">Windows(64Bits)</NavDropdown.Item>
