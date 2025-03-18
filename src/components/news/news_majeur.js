@@ -20,10 +20,7 @@ function News_Majeur(){
     },
     ];
     ImageSlider.map((item, index) => (
-        <div
-            key={index}
-            onClick={() => window.open("https://youtu.be/dQw4w9WgXcQ?si=QvC-KbhBiu0CIV7l")}
-        >
+        <div>
             <img src={item.img} alt="img" />
         </div>
     ));
