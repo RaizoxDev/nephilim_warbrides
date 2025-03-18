@@ -1,13 +1,17 @@
 import React from "react";
 import Button from "./button";
 
+const handleClick = () => {
+    console.log("Button Clicked");
+}
+
 function Posts(){
     return(
         <div className="row">
             <div className="col-12" style={{backgroundColor: "#9D9797"}}>
                 <label className="w-100">
                     <input type="text" id="inputPost" />
-                    <button id="button" onClick={Button}>Poster</button>
+                    <button id="button">Poster</button>
                 </label>
                 <div className="post">
                     Post
