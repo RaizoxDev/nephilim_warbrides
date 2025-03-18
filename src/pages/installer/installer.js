@@ -1,5 +1,4 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from "../../components/image";
 import Menu from "../../components/menu";
 import Prérequis from "../../components/installer/prerequis";

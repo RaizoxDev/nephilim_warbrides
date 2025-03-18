@@ -6,7 +6,7 @@ function Image(){
     return (
         <div id="DivTotal">
           <p>Nephilim Warbrides</p>
-          <img id="Image" src={logo} alt="Logo" width="100" height="100" />
+          <img id="Image" src={logo} alt="Logo" width="250" height="250" />
         </div>
       );
     }
