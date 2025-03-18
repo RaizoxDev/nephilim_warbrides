@@ -15,7 +15,7 @@ function App(){
         <Route path="/" element={<Main />} />
         <Route path="/news" element={<News />} />
         <Route path="/forum" element={<Forum />} />
-        <Route path="/installer" element={<Installer />} />
+        <Route path="/installer/prérequis" element={<Installer />} />
       </Routes>
     </Router>
   );
