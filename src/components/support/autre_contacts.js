@@ -1,6 +1,5 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Placeholder } from "react-bootstrap";
 
 function Autre_News() {
     return (
