@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from "../../components/image";
 import Menu from "../../components/menu";
-import Installer2 from "../../components/installer/installe";
+import Prérequis from "../../components/installer/prerequis";
 import Copyright from "../../components/copyright";
 
 function Installer(){
@@ -10,7 +10,7 @@ function Installer(){
         <>
         <Image />
         <Menu />
-        <Installer2 />
+        <Prérequis />
         <Copyright />
         </>
     );

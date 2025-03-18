@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Installer2() {
+function Prérequis() {
 
   return (
     <div className="container" style={{ backgroundColor: "#9D9797" }}>
@@ -28,4 +28,4 @@ function Installer2() {
     </div>
   );
 }
-export default Installer2;
+export default Prérequis;
