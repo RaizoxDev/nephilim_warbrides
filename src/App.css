@@ -133,19 +133,13 @@ li {
 #inputPost {
     margin: 5px;
     border: 1px solid #000000;
-    width: 1467px;
-}
-
-#button {
-    background-color: #000000;
-    color: #FFFFFF;
+    width: 1447px;
 }
 
 .post {
     background-color: #FFFFFF;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: 10px;
     margin-bottom: 10px;
     border: 1px solid #000000;
     width: 1525px;
