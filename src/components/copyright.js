@@ -1,18 +1,13 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Copyright(){
+function Copyright() {
     return (
-      <div className="container-fluid">
-        <div className="row">
-            <div className="col-1"></div>
-            <div className="col-1"></div>
-            <div className="col-1"></div>
-            <div className="col-5"></div>
-            <div className="col-1"></div>
-            <div className="col-3 text-end ms-auto">Copyright ©</div>
+        <div className="container-fluid">
+            <div className="row justify-content-end">
+                <div className="col-auto text-end">Copyright ©</div>
+            </div>
         </div>
-      </div>
     );
 }
 
