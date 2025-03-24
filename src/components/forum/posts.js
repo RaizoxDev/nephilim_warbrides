@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Buton from "../../components/forum/button";
 
 function Posts() {
@@ -6,7 +6,7 @@ function Posts() {
         <div className="row">
             <div className="col-12" style={{ backgroundColor: "#9D9797" }}>
                 <label className="w-100">
-                    <input type="text" id="inputPost" />
+                    <input id="inputPost" type="text" />
                     <Buton />
                 </label>
                 <div className="post">
