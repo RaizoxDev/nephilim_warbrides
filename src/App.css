@@ -1,5 +1,5 @@
 body {
-    background: url('../public/background/wallpaper.png') no-repeat center center fixed #00fd48;
+    background: url('../public/background/wallpaper.png') no-repeat center center fixed #ffffff;
     background-size: cover;
     font-family: 'Roboto', sans-serif; /* Application de la police Roboto */
     color: #000000;
@@ -157,3 +157,4 @@ li {
     left: 1470px;
     margin: 5px;
 }
+

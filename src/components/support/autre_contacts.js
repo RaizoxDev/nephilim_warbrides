@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Autre_News() {
+function Autre_Contacts() {
     return (
         <>
             <div className="row">
@@ -25,7 +25,7 @@ function Autre_News() {
                                 <input name="email" />
                             </label>
                             <hr />
-                            <p>
+                            <p className="form-box">
                                 Problème:
                                 <div>
                                     <label>
@@ -54,4 +54,4 @@ function Autre_News() {
     );
 }
 
-export default Autre_News;
+export default Autre_Contacts;
