@@ -11,7 +11,7 @@ function Posts() {
             <div className="col-12" style={{ backgroundColor: "#9D9797" }}>
                 <label className="w-100">
                     <input type="text" id="inputPost" />
-                    <Button id="button">Poster</Button>
+                    <button id="button">Poster</button>
                 </label>
                 <div className="post">
                     Post
