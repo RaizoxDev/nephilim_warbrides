@@ -15,14 +15,14 @@ function Autre_Contacts() {
                                 <div>
                                     Pseudo
                                 </div>
-                                <input name="username" />
+                                <input name="username" style={{width: 350}} />
                             </label>
                             <br />
                             <label>
                                 <div>
                                     Email
                                 </div>
-                                <input name="email" />
+                                <input name="email" style={{width: 350}} />
                             </label>
                             <hr />
                             <p className="form-box">
@@ -46,6 +46,16 @@ function Autre_Contacts() {
                                     </label>
                                 </div>
                             </p>
+                            <hr />
+                                <label>
+                                    <div>
+                                        Description du problème
+                                    </div>
+                                        <input name="description" style={{width: 500, height: 300}}/>
+                                </label>
+                                <div>
+                                    <button style={{marginTop: 10}}>Envoyer</button>
+                                </div>
                         </div>
                     </div>
                 </div>
