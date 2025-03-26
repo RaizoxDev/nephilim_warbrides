@@ -130,12 +130,6 @@ li {
     width: 40%;
 }
 
-#inputPost {
-    margin: 5px;
-    border: 1px solid #000000;
-    width: 1447px;
-}
-
 .post {
     background-color: #FFFFFF;  /* Margin and color of the Forum posts */
     margin-left: 5px;
