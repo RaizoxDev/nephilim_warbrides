@@ -9,7 +9,7 @@ const Buton = () => {
     if (message.trim() === '') return;
 
     const newElement = (
-      <div className="post" style={{ display: 'flex' }} key={elements.length}>
+      <div className="post" key={elements.length}>
         <span style={{ marginRight: 10 }}>{message}</span>
         <img 
           className="pholder"
@@ -26,14 +26,14 @@ const Buton = () => {
   return (
     <>
       <input
+        className="inputForum"
         type="text"
         placeholder="Écrivez un message..."
         value={message}
         onChange={(e) => setMessage(e.target.value)}
-        style={{margin: 5, border: 1, borderColor: "#000000", width: 1447}}
       />
       <Button 
-        style={{ backgroundColor: "#000000", color: "#FFFFFF", marginBottom: 5, marginTop: 5 }} 
+        className="buton" 
         onClick={handleButtonClick} 
         variant="primary"
       >

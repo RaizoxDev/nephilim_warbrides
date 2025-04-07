@@ -1,5 +1,4 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const DownloadButton = ({ platform, bitVersion }) => (
   <a href="https://youtu.be/IxX_QHay02M" target="_blank" rel="noopener noreferrer">
@@ -36,7 +35,7 @@ function Prérequis() {
   ];
 
   return (
-    <div className="container" style={{ backgroundColor: "#9D9797" }}>
+    <div className="container bgC">
       <div className="row">
         <PrerequisiteSection title="Prérequis (Minimum)" requirements={minimumRequirements} />
         <PrerequisiteSection title="Prérequis (Recommandé)" requirements={recommendedRequirements} />

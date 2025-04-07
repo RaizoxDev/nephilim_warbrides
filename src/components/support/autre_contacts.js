@@ -1,5 +1,4 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Autre_Contacts() {
     return (
@@ -15,14 +14,14 @@ function Autre_Contacts() {
                                 <div>
                                     Pseudo
                                 </div>
-                                <input name="username" style={{width: 350}} />
+                                <input className="infoSupport" name="username" />
                             </label>
                             <br />
                             <label>
                                 <div>
                                     Email
                                 </div>
-                                <input name="email" style={{width: 350}} />
+                                <input className="infoSupport" name="email" />
                             </label>
                             <hr />
                             <p className="form-box">
@@ -45,16 +44,22 @@ function Autre_Contacts() {
                                         Problème de Téléchargement
                                     </label>
                                 </div>
+                                <div>
+                                    <label>
+                                        <input type="radio" name="problème" value="Autre Problème" />
+                                        Autre Problème
+                                    </label>
+                                </div>
                             </p>
                             <hr />
                                 <label>
                                     <div>
                                         Description du problème
                                     </div>
-                                        <input name="description" style={{width: 500, height: 300}}/>
+                                    <input name="description" className="inputSupport" />
                                 </label>
                                 <div>
-                                    <button style={{marginTop: 10}}>Envoyer</button>
+                                    <button className="buttonSupport">Envoyer</button>
                                 </div>
                         </div>
                     </div>

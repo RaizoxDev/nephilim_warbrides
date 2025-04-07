@@ -63,7 +63,7 @@ li {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#slider-container-3 {
+#slider-container-3, #case-5 {
     background-color: rgba(255, 0, 0, 0.9);
     text-align: center;
     border: 5px solid #9D9797;
@@ -138,11 +138,43 @@ li {
     border: 1px solid #000000;
     width: 1525px;
     height: 60px;
+    display: flex;
 }
 
 .pholder {
     position: absolute; /* Positioning the posts' image */
-    left: 1470px;
+    left: 95.5%;
     margin: 5px;
 }
 
+.buton {
+    background-color: "#000000";
+    color: "#FFFFFF";
+    margin-bottom: 5;
+    margin-top: 5;
+}
+
+.infoSupport {
+    width: 25vw;
+}
+
+.inputSupport {
+    position: relative;
+    width: 40vw;
+    height: 30vw;
+}
+
+.buttonSupport {
+    margin: 10px;
+}
+
+.inputForum {
+    margin: 5px;
+    border: 1px;
+    border-color: "#000000";
+    width: 1447px;
+}
+
+.bgC {
+    background-color: #9D9797;
+}

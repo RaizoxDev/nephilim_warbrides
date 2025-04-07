@@ -1,10 +1,9 @@
-import React, { useState } from "react";
 import Buton from "../../components/forum/button";
 
 function Posts() {
     return (
         <div className="row">
-            <div className="col-12" style={{ backgroundColor: "#9D9797" }}>
+            <div className="col-12 ">
                 <label className="w-100">
                     <Buton />
                 </label>
